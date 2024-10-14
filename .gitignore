@@ -1,5 +1,5 @@
 # Ignore log files
-scraper.log
+*.log
 
 # Ignore session files
 *.session
