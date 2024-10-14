@@ -1,0 +1,11 @@
+my_project:
+  outputs:
+    dev:
+      type: postgres
+      host: localhost
+      user: my_user
+      password: Maru@132
+      port: 5432
+      dbname: ethiomedical_info
+      schema: public
+  target: dev

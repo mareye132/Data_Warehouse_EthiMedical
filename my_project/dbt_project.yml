@@ -1,0 +1,7 @@
+name: 'my_project'
+version: '1.0'
+profile: 'my_project'
+target-path: 'target'
+clean-targets:
+  - 'target'
+  - 'dbt_modules'
