@@ -10,7 +10,6 @@ This project is designed to build a comprehensive data scraping and analysis pip
 - To expose the processed data through a FastAPI application for easy access and interaction.
 
 ## Directory Structure
-```plaintext
 my_project/
 ├── task-1/               # Data Scraping and Collection
 │   ├── scraper.py        # Script for scraping Telegram data
