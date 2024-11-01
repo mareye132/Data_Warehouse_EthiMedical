@@ -1,11 +1,4 @@
-# Data_Warehouse_EthioMedical
+🏥 Data Warehouse for EthioMedical
+The Data Warehouse for EthioMedical project is designed to streamline healthcare data storage, reporting, and analytics for medical institutions in Ethiopia 📈. By creating a centralized data repository, this project aims to support healthcare providers in efficiently accessing patient data, managing records, and generating actionable insights. The data warehouse consolidates diverse healthcare datasets into a structured and scalable format, improving data quality, accessibility, and decision-making for medical staff and administrators.
 
-## Overview
-This project is designed to build a comprehensive data scraping and analysis pipeline that collects and processes messages and media content from specified Telegram channels related to Ethiopian medical businesses. The data is stored in a structured format for further analysis and visualization.
-
-## Objectives
-- To gather relevant data from targeted Telegram channels.
-- To clean, transform, and analyze the collected data.
-- To implement object detection using YOLO for visual data insights.
-- To expose the processed data through a FastAPI application for easy access and interaction.
-
+This repository includes SQL scripts for creating and managing the data warehouse schema, ETL (Extract, Transform, Load) processes, and sample reports to demonstrate the analytical capabilities of the system 💾. Tools and technologies used include SQL, Power BI for data visualization, and Python for data preprocessing and ETL tasks. With this project, EthioMedical can leverage advanced data warehousing techniques to support critical operations, enhance patient care, and enable data-driven policy making in the healthcare sector 🏥.
