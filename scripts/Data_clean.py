@@ -1,7 +1,7 @@
 import pandas as pd
 import logging
 import psycopg2
-from DB_connectivity import connect_to_db
+from Db_connectivity import connect_to_db
 
 # Set up logging
 logging.basicConfig(filename='data_cleaning.log', level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -73,7 +73,7 @@ def create_table_if_not_exists(conn):
         column_definitions_str = ", ".join(column_definitions)
         create_table_sql = f"""
         CREATE TABLE IF NOT EXISTS {TABLE_NAME} ({column_definitions_str});
-
+        """
         
         cursor.execute(create_table_sql)
         conn.commit()
