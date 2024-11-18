@@ -1,4 +1,3 @@
-
 import pandas as pd
 import logging
 import psycopg2
@@ -114,7 +113,7 @@ def store_data(df):
 
 # Main function which calls all functions
 def main():
-    file_path = 'C:/Users/User/Desktop/Github/Data_Warehouse_ForEthioMedical/telegram_data.csv'  # Replace with your file path
+    file_path = 'C:/Users/User/Desktop/Github/Data_Warehouse_ForEthioMedical/telegram_data.csv'  
 
     # Load, clean, and store data
     df = load_data(file_path)
