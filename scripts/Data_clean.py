@@ -73,7 +73,7 @@ def create_table_if_not_exists(conn):
         column_definitions_str = ", ".join(column_definitions)
         create_table_sql = f"""
         CREATE TABLE IF NOT EXISTS {TABLE_NAME} ({column_definitions_str});
-        """
+
         
         cursor.execute(create_table_sql)
         conn.commit()
